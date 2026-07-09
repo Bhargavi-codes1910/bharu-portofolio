@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="4signstyle.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-header">
+            <span class="close-btn">&times;</span>
+            <img src="Logo.png" alt="Logo" class="logo-img">
+        </div>
+        
+        <h1>Login</h1>
+        <p class="sub-heading">or <a href="signup.html">create an account</a></p>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <input type="text" id="identifier" placeholder="Phone number or email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Enter password" required>
+            </div>
+            <button type="submit" class="btn">LOGIN</button>
+        </form>
+
+        <p class="legal-text">
+            By clicking on Login, I accept the Terms & Conditions & Privacy Policy
+        </p>
+    </div>
+    <script src="signin.js"></script>
+</body>
+</html>

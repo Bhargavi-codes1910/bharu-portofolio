@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.auth-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 28px;
+    color: #888;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.logo-img {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #eee;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1c1c1c;
+    margin: 0;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.sub-heading {
+    margin: 5px 0 30px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.sub-heading a {
+    color: inherit;
+    text-decoration: underline; /* This line was changed */
+    font-weight: bold;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+input[type="tel"],
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #fc8019;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #e06f15;
+}
+
+.legal-text {
+    font-size: 12px;
+    color: #888;
+    text-align: center;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+
